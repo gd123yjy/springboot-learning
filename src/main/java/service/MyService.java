@@ -14,7 +14,7 @@ public class MyService {
         this.myResposity = myRepository;
     }
 
-    public void log(){
+    public void doMyService(){
         System.out.println(myResposity.getMessage());
     }
 }
